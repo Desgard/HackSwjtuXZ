@@ -1,0 +1,13 @@
+{
+	"name":"Desgard_Time_Fly",
+	"version":"beta 0.8"
+	"description":"Watching SWJTU Forms and Policies Course films on the Internet without filling in the verification code!",
+	"brower_action":{
+		"default_icon":"icon.png",
+		"default_title":"Time Fly",
+		"default_popup":"popup.html"
+	},
+	"icons":{
+		"16":"images/icon16.png"
+	}
+}
