@@ -48,17 +48,10 @@ function updateUserData() {
 		alert(select_message + "，本次计时已结束，页面将关闭，如需继续观看本视频请重新打开网页");
 		window.close();
 	} else if (state_id == "3") {
-		console.log("本次计时结束，将会开始新的计时"); // 啥也木有发生～
-		/*
-		 * 原函数：
-		 * alert(select_message);  //state_id=="3" 意味着“停止计时”生效，select_message为：窗口将关闭
-		 * window.close();
-		 *
-		 */
-		window.is_upload = 0; // 有此参数，即可将setType参数定为"ADD"
-		// 在新的session中，让random与cTime重新开始
+		console.log("本次计时结束，将会开始新的计时");
+		window.is_upload = 0; 
 		reWriteCONST();
-		line = true; // FromUserLogin()函数中的if condition，令其为true.
+		line = true;
 		UpdateUserTime();
 	} else {
 		sid = select_message;
@@ -70,17 +63,11 @@ function updateUserData() {
 }
 
 var reWriteCONST = function() {
-	window.random = 450; // 由于服务器对用户长时间不进行观看的检测为1850s，则在给random
-	// 赋值的时候，<= 1850 即可。
-	// 建议控制在以下范围
-	// 1200 <= random <= 1850
+	window.random = 450; 
 	console.log("Bingo~");
 }
 setTimeout(reWriteCONST, 5000);
 
-/**
- * @description: 可选择添加模块，点击按钮后可手动录入时间而不退出观看。
- */
 function StopVideo() {
 	ret = true;
 	if (ret) {

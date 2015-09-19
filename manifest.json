@@ -1,6 +1,6 @@
 {
 	"name":"DesgardFlying",
-	"version":"0.1",
+	"version":"0.9",
 	"description":"Watching SWJTU Forms and Policies Course films on the Internet without filling in the verification code!",
 	"manifest_version": 2,
 	"browser_action": {
