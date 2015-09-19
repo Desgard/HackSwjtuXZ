@@ -1,7 +1,8 @@
-Desgard_Duan
+Desgard Flying
 ============
-##Desgard Flying
-+ Beta 0.9
++ author: Desgard_Duan
++ version: Beta 0.9
++ from: Wind and Thunder Studio(风雷工作室)
  
 
 用于针对 SWJTU 形势与政策网络课堂计时免验证码填写的挂机插件。
