@@ -1,4 +1,9 @@
 window.onload = function() {
+	
+	/*
+	 * description: 嵌入js，重写原函数
+	 */
+	
 	var js = "";
 	js += 'function OutMessage() {' + 'document.getElementById("message").style.display = "";' + 'document.getElementById("block").style.display = "";' + 'run = true;' + 'cTime = 10;' + 'line = false;' + 'TimeClose();}'
 
@@ -17,6 +22,9 @@ window.onload = function() {
 	js += 'setTimeout(reWriteCONST,5000);' + 'console.log("冬瓜：成功载入脚本");'
 	js += 'function StopVideo() {' + 'ret = true;' + 'console.log("啦啦啦，计时成功咯！(⊙o⊙)");' + 'if (ret) {' + 'is_upload = 3;' + 'random = -1;' + 'UpdateUserTime();' + '}' + '}';
 
+	/*
+	 * description: 界面修改，友好引导用户
+	 */
 
 	var x = document.getElementById('viewTitle');
 	console.log(x);
@@ -42,9 +50,9 @@ window.onload = function() {
 	
 	x = document.getElementsByClassName("listCourseRightContent");
 	if (x != null) {
-		x[0].innerHTML = "<p>1.点击<font color='red'>手动计时</font>按钮会自动在学时上刷新当前观看时间，且不会使得" +
-"计时结束。<p>2.每次弹出验证码窗口的时候，不必填写验证码。等时间结束后自动计时。</p>" +
-"<hr /><p><font size='3px'  face='微软雅黑'>如果还有疑问请访问：<a href='http://www.desgard.com'>desgard.com</a>向我进行留言。</font></p><img src='http://www.desgard.com/public/img/Desgard_Duan.jpg'>";
+		x[0].innerHTML = 	"<p>1.点击<font color='red'>手动计时</font>按钮会自动在学时上刷新当前观看时间，且不会使得" +
+							"计时结束。<p>2.每次弹出验证码窗口的时候，不必填写验证码。等时间结束后自动计时。</p>" +
+							"<hr /><p><font size='3px'  face='微软雅黑'>如果还有疑问请访问：<a href='http://www.desgard.com'>desgard.com</a>向我进行留言。</font></p><img src='http://www.desgard.com/public/img/Desgard_Duan.jpg'>";
 	}
 	
 	
