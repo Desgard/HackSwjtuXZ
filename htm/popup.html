@@ -4,16 +4,15 @@
 	<head>
 		<title>Getting Started Extension's Popup</title>
 		<style>
-			body{
-		        min-width:357px;
-		        overflow-x:hidden;
+			body {
+				width: 500px;
 			}
-			
-		
 		</style>
 
 		<!-- JavaScript and HTML must be in separate files for security. -->
+		<script src="../js/jquery-2.1.4.min.js"></script>
 		<script src="/js/popup.js"></script>
+		
 	</head>
 
 	<body>
@@ -23,9 +22,11 @@
 			If you want to know more about me, please to visit the link: <br />
 			<a src="http://www.desgard.com/">http://www.desgard.com</a>
 		</p>
-		<h2>
-			<script>document.write(random.toString());</script>
-		</h2>
+		<script>
+			chrome.runtime.sendMessage('time', function(random){
+				document.write(random);
+			});
+		</script>
 	</body>
 
 </html>

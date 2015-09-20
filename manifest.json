@@ -15,8 +15,8 @@
 		"64":"images/icon64.png",
 		"128":"images/icon128.png"
 	},
-	"background": {
-		"page":"background.html"
+	"background": { 
+		"scripts": ["js/background.js"] 
 	},
 	"content_scripts": [{
 		"matches": ["http://202.115.71.131/course/websys/*"],

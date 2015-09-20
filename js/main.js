@@ -81,7 +81,7 @@ function StopVideo() {
  * @description: 前台显示，友好相关
  */
 alert("冬瓜：成功载入脚本")
-	// document.getElementById("viewTitle").innerHTML = "<div><font color='red'>已将脚本覆盖成功。</font></div>";
+document.getElementById("viewTitle").innerHTML = "<div><font color='red'>已将脚本覆盖成功。</font></div>";
 
 var inps = document.getElementsByTagName('input');
 for (var i = 0; i < inps.length; i++) {
