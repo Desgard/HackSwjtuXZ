@@ -91,7 +91,7 @@ for (var i = 0; i < inps.length; i++) {
 	}
 }
 
-// document.getElementsByClassName("listCourseRightTitle")[1].innerHTML = "插件功能说明";
-// document.getElementsByClassName("listCourseRightContent")[0].innerHTML = "<p>1.点击<font color='red'>手动计时</font>按钮会自动在学时上刷新当前观看时间，且不会使得" +
+document.getElementsByClassName("listCourseRightTitle")[1].innerHTML = "插件功能说明";
+document.getElementsByClassName("listCourseRightContent")[0].innerHTML = "<p>1.点击<font color='red'>手动计时</font>按钮会自动在学时上刷新当前观看时间，且不会使得" +
 "计时结束。<p>2.每次弹出验证码窗口的时候，不必填写验证码。等时间结束后自动计时。</p>" +
 "<hr /><p><font size='3px'  face='微软雅黑'>如果还有疑问请访问：<a href='http://www.desgard.com'>desgard.com</a>向我进行留言。</font></p><img src='http://www.desgard.com/public/img/Desgard_Duan.jpg'>"
