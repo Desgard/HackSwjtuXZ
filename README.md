@@ -16,10 +16,12 @@ Desgard Flying
 
 > 三、打开行政视频地址，插件自动工作
 <br />
-
+<hr />
  ![img](http://i3.tietuku.com/b57026140d016747.png "第二步")
+ <br />
+ ===============
  ![img](http://i3.tietuku.com/57c2eab0f23f2ee8.png "第三步")
-
+<br />
 ##更新日志
 ###2015-9-19
 完成插件核心功能，完成计时记录自动发送请求。完成插件显示页面`popup.htm`。
