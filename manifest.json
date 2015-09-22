@@ -19,7 +19,7 @@
 		"scripts": ["js/background.js"] 
 	},
 	"content_scripts": [{
-		"matches": ["http://202.115.71.131/course/websys/*"],
+		"matches": ["http://202.115.71.131/course/websys/*", "http://ocw.swjtu.edu.cn/websys/*"],
 		"js":["js/jquery-2.1.4.min.js", "js/test.js"],
 		"run_at":"document_end",
 		"all_frames":true
