@@ -1,7 +1,7 @@
 /*
  * description: 嵌入js，重写原函数
  */
-var setTime = "2200";
+var setTime = "1500";
 
 var js = "";
 js += 'function OutMessage() {' + 'document.getElementById("message").style.display = "";' + 'document.getElementById("block").style.display = "";' + 'run = true;' + 'cTime = 10;' + 'line = false;' + 'TimeClose();}'
