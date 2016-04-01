@@ -11,13 +11,16 @@ Desgard Flying
 > 一、打开`chrome`，地址栏加载`chrome://extensions/`插件的页面
 <br />
 
-> 二、将插件拖入页面，添加即可。点击`启动`按钮
+> 二、下载文件，将插件拖入页面，添加即可。点击`启动`按钮（[下载地址](http://pan.baidu.com/s/1gf8TlZl)）
 <br />
 
 > 三、打开行政视频地址，插件自动工作
 
 
 <br />
+![img](http://image17-c.poco.cn/mypoco/myphoto/20160401/11/17823283120160401113934032.png?1910x1376_130)
+<br />
+![img](http://image17-c.poco.cn/mypoco/myphoto/20160401/11/17823283120160401114007019.png?1600x963_130)
 <hr />
 ##更新日志
 ###2015-09-19
